@@ -1,4 +1,4 @@
-## [Blue0x | HOME](https;//blue0x.com)
+## [Blue0x | HOME](https://blue0x.com)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/theblue0x/theblue0x.github.io?color=success)  ![GitHub repo size](https://img.shields.io/github/repo-size/theblue0x/theblue0x.github.io?color=success)  [![Discord](https://img.shields.io/discord/823558528212008961?logo=discord)](https://discord.gg/EbBWRSPW63)
 
