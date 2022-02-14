@@ -1,6 +1,6 @@
 ## [Blue0x | HOME](https://blue0x.com)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/theblue0x/theblue0x.github.io?color=success)  ![GitHub repo size](https://img.shields.io/github/repo-size/theblue0x/theblue0x.github.io?color=success)  [![Discord](https://img.shields.io/discord/823558528212008961?logo=discord)](https://discord.gg/EbBWRSPW63)
+![GitHub last commit](https://img.shields.io/github/last-commit/theBlue0x/theblue0x.github.io?color=success)  ![GitHub repo size](https://img.shields.io/github/repo-size/theBlue0x/theblue0x.github.io?color=success)  [![Discord](https://img.shields.io/discord/823558528212008961?logo=discord)](https://discord.gg/EbBWRSPW63)
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
 ![Java](https://img.shields.io/badge/-java-E34A86?style=flat-square&logo=java)
