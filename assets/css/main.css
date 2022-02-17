@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
 
 @media (max-width: 500px){
 	#headerwrap h1 {
@@ -36,7 +38,7 @@
 
 .container {
     position: absolute;
-    top: 49vh;
+    top: 46vh;
     left: 50vw;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -59,9 +61,9 @@ span {
 
 body {
   background-color: #f2f2f2;
-    font-family: monospace;
+    font-family: 'Ubuntu Mono', monospace;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     color: #555;
 
     -webkit-font-smoothing: antialiased;
@@ -155,7 +157,7 @@ a:after {
 
 #headerwrap h2 {
 	color: white;
-	font-size: 40px;
+	font-size: 70px;
 	font-weight: 700;
 	text-shadow: 1px 1px 4px black;
 }
@@ -164,8 +166,8 @@ a:after {
 	color: white;
 	font-size: 30px;
 	font-weight: 100;
-    font-family: 'EB Garamond', serif;
-    font-style: oblique;
+    	font-family: 'EB Garamond', serif;
+    	font-style: oblique;
 }
 
 /* MENU CONF*/
@@ -216,9 +218,9 @@ a:after {
 	margin-left: 20px;
 	color: #808080;
 	display: block;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 700;
-	line-height: 40px;
+	line-height: 34px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
