@@ -63,7 +63,7 @@
 		      	var payoutAddress = result.platform
 		      	var connected = result.inboundWebSocket
 		      	if ((connected == true ) && (payoutAddress.startsWith("BLX"))) {
-		        	var success = '<p style="color:limegreen">&#10004 Rewards will be sent to ' + payoutAddress + '.</p>'
+		        	var success = '<p style="color:limegreen">&#10004 Rewards will be sent to ' + payoutAddress + '</p>'
 		        	$("#result").html(success)
 				} else {
 					var error1 = '<p style="color:red">&#10006 Please check your configuration.</p>'
