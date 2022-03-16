@@ -11,16 +11,6 @@
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>	
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
-    <style>
-    	.logged-in {
-			  color: limegreen;
-			}
-
-			.logged-out {
-			  color: red;
-			}
-			
-    </style>
   </head>
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
 	<nav class="menu" id="theMenu">
@@ -49,8 +39,6 @@
 				<p style="color:white;margin-top:20px;margin-bottom:5px;line-height:22px;">Decentralizing Global Finance.</p>
 				<p style="color:white;margin-top:0px;margin-bottom:20px;line-height:22px;">Together. We Are The Bank.</p>
 				<a class="myButton" href="start.html" role="button">Get Started</a>&nbsp;<a class="myButton" href="https://learn.blue0x.com/learn_more/" role="button">Learn More</a>
-				<br/>
-				<div id="status" style="color:white;font-size:14px;padding-top:16px;"><p class="status"><span class="logged-in">●</span> All Systems Operational</p2></div>
 			</div><!-- /row -->
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
@@ -59,20 +47,5 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/smoothscroll.js"></script>
 <script src="assets/js/main.js"></script>
-<script>
-		$.get('https://api.blue0x.com/nxt', {
-	    requestType: 'getTime'
-	  	},
-	  	function (result){
-	  		var error = result.errorDescription
-	  		if (!error) {
-		    	var success = '<p class="status"><span class="logged-in">●</span> All Systems Operational</p2>'
-		        	$("#status").html(success)
-				} else {
-				var error2 = '<p class="status"><span class="logged-out">●</span> System Error</p2>'
-		        	$("#status").html(error2)
-				}
-		})
-</script>
 </body>
 </html>
